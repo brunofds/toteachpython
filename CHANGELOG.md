@@ -1,9 +1,17 @@
+<!-- 1.0.2 START -->
+# 1.0.1 (2021-11-03)
+### Features and enhancements
+
+- **List Comprehension:** Better than handling lists with for loops
+
+<!-- 1.0.2 END -->
+
 <!-- 1.0.1 START -->
 # 1.0.1 (2021-10-29)
 ### Features and enhancements
 
-- **Nested Functions:** Document new permissions restricting data source access. [#2](https://github.com/brunofds/toteachpython/pull/1), [@brunofds](https://github.com/brunofds)
-- **Serialization:** Add fiscal years and search to time picker. [#2](https://github.com/brunofds/toteachpython/pull/1), [@brunofds](https://github.com/brunofds)
+- **Nested Functions:** 
+- **Serialization:** 
 
 <!-- 1.0.1 END -->
 
