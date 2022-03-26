@@ -2,6 +2,14 @@
 # 1.0.1 (2021-11-03)
 ### Features and enhancements
 
+- **Factory Pattern:** Better than handling lists with for loops
+
+<!-- 1.0.2 END -->
+
+<!-- 1.0.2 START -->
+# 1.0.1 (2021-11-03)
+### Features and enhancements
+
 - **List Comprehension:** Better than handling lists with for loops
 
 <!-- 1.0.2 END -->
