@@ -28,7 +28,7 @@ class CustomersAtribute:
     def __init__(self, first, last):
         self.name = first
         self.last = last
-        self.email = '{}.{}'.format(self.name, self.last)
+        self.email = '{}.{}@gmail.com'.format(self.name, self.last)
 
     def full_name(self):
         return '{} {}'.format(self.name, self.last)
@@ -58,7 +58,7 @@ class CustomersDecorator:
     def full_name(self):
         return '{} {}'.format(self.name, self.last)
 
-    @property
+    @property  #  O que acontece por trás é que "email" deixa de ser do tipo metodo e passa a ser de outro do tipo str
     def email(self):
         return '{}.{}@gmail.com'.format(self.name, self.last)
 
@@ -68,8 +68,11 @@ logger.info(cust_1.email)
 
 cust_2 = CustomersMethod("Bruno", "Silva")
 logger.info(cust_2.email())
+logger.info(f"Type email call method: {type(cust_2.email())}")
+logger.info(f"Type email method: {type(cust_2.email)}")
 
 cust_3 = CustomersDecorator("Ed", "Lola")
 logger.info(cust_3.email)
+logger.info(f"Type email decorator: {type(cust_3.email)}")
 
 
